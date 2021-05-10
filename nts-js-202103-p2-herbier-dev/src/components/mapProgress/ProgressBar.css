@@ -1,0 +1,17 @@
+.progress-div {
+  background-color: #282a4830;
+  border-radius: 0.5rem;
+  height: 0.65em;
+  width: 150px;
+}
+
+.progress {
+  background-color: rgb(85, 240, 111);
+  height: 0.65em;
+  border-radius: 1rem;
+  text-align: center;
+  align-items: center;
+}
+.percent-bar {
+  font-size: 0.7rem;
+}

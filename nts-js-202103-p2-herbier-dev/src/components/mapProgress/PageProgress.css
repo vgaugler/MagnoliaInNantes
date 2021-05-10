@@ -1,0 +1,9 @@
+.page-progress {
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 100px;
+}
+.progress-title {
+  font-size: 22px;
+  margin: 0 0 40px 24px;
+  line-height: 1.3;
+}

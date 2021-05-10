@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap%27');
+body {
+  font-family: 'Inter', sans-serif;
+}
+.txtHead {
+  font-size: 22px;
+  margin: 0 27px 40px 24px;
+  line-height: 1.3;
+}
+
+.footerScore {
+  position: fixed;
+  bottom: 60px;
+  left: 0;
+  width: 100%;
+  background: rgba(34, 33, 33, 0.76);
+  z-index: 10;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.9em;
+  transition: 0.6s;
+}
+.fleche {
+  width: 30px;
+  height: auto;
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transition: 0.2s;
+  transform: translate(-50%, 5%);
+}
+.isActive {
+  bottom: 5px;
+}
+/* map  */
+.BoxMap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 90px;
+}
+.marker {
+  fill: green;
+}
+.CardMap {
+  box-sizing: border-box;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: 0px 1px 5px 1px rgb(0 0 0 / 30%);
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  transition: 0.8s;
+}
+.CardMap.notMapActive {
+  height: 150px;
+  overflow: hidden;
+}
+
+.CardInfo {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 101%;
+  color: white;
+  height: 120px;
+  background-size: cover;
+}
+.imgParc {
+  width: 80px;
+  height: auto;
+}
+.CardInfoTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  backdrop-filter: blur(1px);
+  padding: 10px;
+}
+.CardInfoTxt h3 {
+  margin: 0px;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.CardInfoSubTxt {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.CardInfoSubTxt p {
+  margin-right: 10px;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+.scoreMagno {
+  width: 80px;
+  height: 80px;
+  z-index: 1000;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.txtScoreMagno {
+  backdrop-filter: blur(1px);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.adresseParc {
+  color: #264653;
+  background-color: #53d496a2;
+  font-weight: 600;
+  width: 100%;
+  padding: 5px;
+  font-size: 0.7em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.imgPopup {
+  width: 165px;
+  height: auto;
+}
+.leaflet-popup-content-wrapper {
+  margin: 0px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  z-index: 1;
+  backdrop-filter: blur(1px);
+  transition: 1.5s;
+}
+.popupContent {
+  text-align: center;
+  margin: 18px;
+  font-weight: lighter;
+  font-size: 1em;
+}
+.leaflet-popup-content {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bolder;
+  z-index: 100000;
+  font-size: 1.8em;
+}
+.buttonAdd {
+  margin-bottom: 10px;
+  padding: 6px 14px;
+  font-size: 17px;
+  background-color: #fff;
+  color: #53d496;
+  border: 1px solid #53d496;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 550px;
+  z-index: 2;
+  position: relative;
+  font-family: 'Inter', sans-serif;
+}
+.leaflet-popup-tip {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(2px);
+  z-index: 1;
+}
+.arrowMap {
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  text-align: right;
+}
+.avatarLocation {
+  border-radius: 100px;
+}
+.avatarInformation {
+  padding: 10px;
+  font-size: 1.5em;
+  font-family: 'Inter', sans-serif;
+}
+
+.nav {
+  z-index: 10;
+}

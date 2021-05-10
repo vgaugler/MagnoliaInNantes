@@ -1,0 +1,39 @@
+.footer {
+  height: 65px;
+  font-family: 'Inter', sans-serif;
+  background-color: #53d496;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.boxIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  width: 200px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer p {
+  margin-top: 4px;
+}
+.main-nav-active svg path {
+  fill: #907d7d;
+}
+.main-nav-active p {
+  color: #907d7d;
+}
